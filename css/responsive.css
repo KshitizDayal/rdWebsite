@@ -1,0 +1,175 @@
+@media only screen and (max-width:1060px){
+
+    .navlist{
+        flex-direction: column;
+    }
+
+    .background{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 485px;
+    }
+
+    .navlist li a{
+        color: black;
+        font-size: 20px;
+    }
+
+    .bakgrnd{
+        background: #877c74;
+    }
+
+    .firstSection img{
+        margin: 5px 20px;
+        padding: 5% 5%;
+    }
+
+    .rd img{
+        border-radius:28%;
+        border:  0 solid transparent;
+        background: linear-gradient(60deg, #efa51a , #72e923 );
+    }
+     
+    .intro{
+        text-align: center;
+        margin: 1% 6%;
+    }
+
+    .public ol ul li {
+        list-style-position: inside;
+        text-align: inherit;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: inline-block;
+        list-style-type: square;
+    }
+
+    .firstSection{
+        max-width: 100%;
+    }
+
+    .first{
+        width: 75%;
+        height: auto;
+        
+    }
+    .second{
+        width: 80%;
+        height: auto;
+    }
+
+    .third{
+        width: 95%;
+        height: auto;
+    }
+
+    .fourth{
+        width: 88%;
+        height: auto;
+    }
+
+    .fifth{
+        width: 85%;
+        height: auto;
+    }
+
+    .burger{
+        display:block;
+    }
+
+    .h-nav-resp{
+        height:60px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width:650px){
+
+    .background{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .intro{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 0 25px;
+    }
+
+    .maindiv{
+        display: inline-block;
+    }
+
+    .div{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+        
+    }
+
+    .divsub ul li:before{
+        content: "\FF0D";
+        margin-right: 0px;
+        
+    }
+
+    .divsub{
+        
+        
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 15px 0px;
+        margin-left: 20px;
+        font-size: 25px;
+        flex: auto;
+        margin-right: auto;
+    }
+
+    .achieve{
+        margin: 0 5px 0 20px;
+    }
+
+    .first{
+        width: 90%;
+        
+    }
+    .second{
+        width: 90%;
+    }
+
+    .third{
+        width: 90%;
+    }
+
+    .xyz-resp{
+        display: flex;
+        width: 100%;
+    }
+
+    .gmail{
+        text-align: center;
+        padding: 1% 14%;
+    }
+
+    .linkdin{
+        padding: 1%;
+    }
+
+
+}
