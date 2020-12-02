@@ -108,6 +108,14 @@
         text-align: center;
         margin: 0 0 0 25px;
     }
+    
+    .firstlet{
+        font-size: 40px;
+    }
+
+    .head1 p{
+        font-size: 60px;
+    }
 
     .maindiv{
         display: inline-block;
@@ -164,7 +172,7 @@
 
     .gmail{
         text-align: center;
-        padding: 1% 14%;
+        padding: 1% 10%;
     }
 
     .linkdin{
