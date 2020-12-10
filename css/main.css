@@ -252,6 +252,8 @@ html,body{
 .blink{
     -webkit-animation: blink 1s linear infinite;
     -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
     animation: blink 1s linear infinite;
 }
 
@@ -266,6 +268,19 @@ html,body{
     50%{opacity : 0;}
     100%{opacity : 1;}
 }
+
+@-ms-keyframes blink{
+    0%{opacity : 1;}
+    50%{opacity : 0;}
+    100%{opacity : 1;}
+}
+
+@-o-keyframes blink{
+    0%{opacity : 1;}
+    50%{opacity : 0;}
+    100%{opacity : 1;}
+}
+
 
 @keyframes blink{
     0%{opacity : 1;}
